@@ -16,4 +16,5 @@ license = "GPL-3.0-or-later"
 # more crates), that they all only ever use one version of a shared
 # dependency.
 [workspace.dependencies]
+clap = { version = "4.5.57", features = ["wrap_help", "cargo"] }
 openmls = "0.8.0"
