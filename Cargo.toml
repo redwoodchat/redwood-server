@@ -1,0 +1,19 @@
+[workspace]
+
+resolver = "3"
+
+members = [
+	"crates/redwood-server"
+]
+
+[workspace.package]
+
+rust-version = "1.93"
+edition = "2024"
+license = "GPL-3.0-or-later"
+
+# Set all dependencies here, to ensure (as the workspace grows to include
+# more crates), that they all only ever use one version of a shared
+# dependency.
+[workspace.dependencies]
+openmls = "0.8.0"

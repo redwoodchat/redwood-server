@@ -1,0 +1,11 @@
+[package]
+name = "redwood-server"
+description = "The server for Redwood Chat"
+version = "0.1.0"
+license = "GPL-3.0-or-later"
+
+rust-version.workspace = true
+edition.workspace = true
+
+[dependencies]
+openmls.workspace = true
